@@ -1,4 +1,6 @@
-#nav {
+
+
+#site-nav {
 	height: 59px;
 	padding: 0px;
 	position: fixed;
@@ -9,7 +11,7 @@
 	border-bottom: 1px solid #d2d2d2;
 }
 
-#nav:hover {
+#site-nav:hover {
 	opacity: 1;
 }
 
@@ -80,10 +82,9 @@
 	width: 36px;
 	margin: 5px; 
 	border: 1px solid #7f7f7f;
-	padding: 2px;
 }
 
-.social_icon a svg path {
+.social_icon a img {
 	margin: 2px;
 	height: 32px;
 	width: 32px;

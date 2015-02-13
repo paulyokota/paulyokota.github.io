@@ -1,0 +1,68 @@
+@media screen and (max-width: 1500px) {
+
+	#hero {
+			height: 385px;
+	}
+
+	#hero_image {
+		background-image: url("/assets/startup_l.jpg");
+		height: 385px;
+	}
+}
+
+@media screen and (max-width: 753px) {
+
+	#hero {
+		height: 300px;
+	}
+
+	#hero_image {
+		background-image: url("/assets/startup_m.jpg");
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+
+	#hero {
+		height: 200px;
+	}
+
+	#content h1 {
+		font-size: 38px;
+	}
+
+		#hero_image {
+		background-image: url("/assets/startup_s.jpg");
+		height: 200px;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	
+	#content h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 110%;
+	}
+
+	#tray {
+   		width: 100%;  
+	}
+
+	#social {
+		width: 110px;
+	}
+
+	#content {
+		margin-bottom: 50px;
+	}
+
+	.large {
+		font-size: 125%;
+	}
+}
