@@ -1,23 +1,35 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div id="hero">
+  <div id="hero_image"></div>
 </div>
+<div id="circle">
+</div>
+<div id="content">
+  <h1>PAUL YOKOTA</h1>
+  <p class="subhead">
+    Product Manager - San Jose, California
+  </p>
+  <div id="sub_content">
+    <p class="large">
+      <strong>Hi.</strong>
+    </p>
+    <p>
+      My name is Paul Yokota, and I&#8217;m a product manager living in San Jose, California. I work at <a href="http://www.mixbook.com" target="_blank">Mixbook</a> on the <a href="http://heymosaic.com" target="_blank">Mosaic</a> photo books app for iOS and Android.</p>
+    <p>
+      I&#8217;m passionate about helping teams build amazing user experiences.
+    </p>
+    <p>
+      Specifically, I&#8217;m interested in lean product development, UX design, Agile software development, and the continuing development of the professional practice of product management.
+    </p>
+    <p>
+      I also like kittens.
+    </p>
+    <p>
+      If you share any of these interests, I&#8217;d love to connect on <a href="https://twitter.com/Paul_Yokota" target="_blank">Twitter</a> or <a href="www.linkedin.com/in/paulyokota/" target="_blank">LinkedIn</a>.
+    </p>
+  </div>
+</div>
+
+
